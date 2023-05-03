@@ -1,3 +1,20 @@
+/*Given an array arr of size N where every element is in the range from 0 to N-1. Rearrange the given array so that arr[i] = j is changed to arr[j] = i.
+
+You must write an algorithm that runs in linear time and uses linear extra space.
+
+Input Format
+First-line will contain an integer N, size of array arr.
+Second-line will contain N space-separated integers describing elements of the array.
+
+Output Format
+Print the given array arr so that arr[i] = j is changed to arr[j] = i.
+
+Input 1:
+4
+1 3 0 2
+Output 1:
+2 0 3 1
+*/
 #include <iostream>
 #include<vector>
 using namespace std;
